@@ -1,16 +1,12 @@
 # flutter_design_patterns
 
-Dart & Flutter Code for Design Patterns
+Dart & Flutter Code for the most common design patterns in mobile development.
 
-## Getting Started
+## Creational Design Patterns
 
-This project is a starting point for a Flutter application.
+Creational design patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Singleton
+- Factory method
+- Adapter
+- Observer

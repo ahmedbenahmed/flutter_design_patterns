@@ -1,7 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_design_patterns/adapter/adapter_screen.dart';
 import 'package:flutter_design_patterns/factory_method_pattern/factory_method_pattern.dart';
+import 'package:flutter_design_patterns/observer/observer_screen.dart';
 import 'package:flutter_design_patterns/singleton/singleton.dart';
 import 'package:flutter_design_patterns/singleton/singleton_screen.dart';
 
@@ -22,7 +24,9 @@ class MyScreen extends StatelessWidget {
   final Random random = Random();
   final Map<String, Widget> items = {
     'Singleton': MySingletonScreen(),
-    "Factory Method Pattern": FactoryMethodPatternScreen()
+    "Factory Method Pattern": FactoryMethodPatternScreen(),
+    "Observer": ObserverScreen(),
+    "Adapter": AdapterScreen(),
   };
 
   Color getRandomColor() {
